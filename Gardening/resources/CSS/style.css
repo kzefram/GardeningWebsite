@@ -1,0 +1,310 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	background-color: white;
+	color: black;
+	text-rendering: optimizeLegibility;
+	font-size: 16px;
+	font-family: "Josefin sans", "Arial", sans-serif;
+
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+/***clearfix***/
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+	visibility: hidden;
+}
+
+/***header***/
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,.3),rgb(0,0,0,.7)), url(https://images.unsplash.com/photo-1570017786079-d143ee05961c?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNjkxODQxMA&ixlib=rb-1.2.1&q=85);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.header-box {	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+h1 {
+	font-size: 500%;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+h2{
+	font-size: 200%;
+	color: #fff;
+	font-weight: 400;
+	padding: 10px;
+}
+
+h3{
+	font-size: 150%;
+	color: #fff;
+	font-weight: 400;
+}
+
+/****Buttons****/
+
+.header-text-box {
+	margin-bottom: 100px;
+}
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 300px;
+	display:inline-block;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+	background-color: #33cc33;
+	color: #fff;
+}
+
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]:hover {
+	background-color: #248f24;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+	border: 2px solid #33cc33;
+	color: #33cc33;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+	background-color: #33cc33;
+	color: #fff;
+}
+
+/***header nav****/
+
+.main-nav {
+	list-style: none;
+	float: right;
+	margin-top: 50px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-right: 40px;
+	text-transform: uppercase;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	border-bottom: 2px solid #33cc33;
+}
+
+.logo {
+	height: 120px;
+	width: auto;
+	float: left;
+}
+
+/***services***/
+
+.What-we-do-section {
+	text-align:center;
+	background-color:#f4f4f4;
+}
+
+.What-we-do-box {
+	padding:1% 3% 10% 3%;
+}
+
+.big-icon {
+	font-size:250%;
+	color:#33cc33;
+	display:block;
+	margin-bottom:30px;
+}
+
+.section-heading {
+	font-size:190%;
+	margin-bottom:30px;
+	font-weight:400;
+	margin-top: 100px;
+	color: #556;
+}
+
+.What-we-do-para {
+	color:#556;
+	font-size:90%;
+	padding-bottom:30px;
+}
+
+.What-we-do-link {
+	color:#33cc33;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+.section-para2 {
+	padding-bottom: 50px;
+	color: #556;
+}
+
+/***** Contact Form Section *****/
+
+.contact-section {
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.contact-heading {
+	color: #000;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.contact-form {
+	text-align: left;
+	width: 60%;
+	margin: 0 auto;
+	color: #555;
+}
+
+label {
+	text-align: left;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+	width: 100%;
+	padding: 8px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+
+input[type=submit] {
+	border: 0;
+}
+
+input[type=checkbox] {
+	margin: 10px 5px 10px 0;
+}
+
+textarea {
+	height: 100px;
+}
+
+*:focus {
+	outline: none;
+}
+
+/***** Footer Section ****/
+
+footer {
+	background-color: #333;
+	padding: 50px;
+	font-size: 80%;
+	color: #888;
+}
+
+.footer-nav {
+	float: left;
+}
+
+.footer-nav li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+	color: #888;
+	text-decoration: none;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+	color: #fff;
+}
+
+.social-links li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.social-links {
+	float: right;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+	font-size: 160%;
+}
+
+.fa-facebook-f:hover {
+	color: #3b5998;
+}
+
+.fa-twitter:hover {
+	color: #00aced;
+}
+
+.fa-google-plus-g:hover {
+	color: #dd4b39;
+}
+
+.fa-instagram:hover {
+	color: #517fa4;
+}
+
+footer p {
+	text-align: center;
+	line-height: 1.5;
+	margin-top: 50px;
+}
